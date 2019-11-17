@@ -1,0 +1,36 @@
+.product-show-case-container {
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  grid-template-columns: repeat(4, 1fr);
+  padding-bottom: 50px;
+
+  .products-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/5;
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    justify-content: center;
+    
+    .product-item {
+      .product-image {
+        background-size: contain;
+        height: 400px;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      .product-caption {
+        padding-top: 70px;
+        text-align: center;
+        font-size: 1.5em;
+      }
+    }
+  }
+}
