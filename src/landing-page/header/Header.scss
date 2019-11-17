@@ -1,0 +1,10 @@
+.header-container {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 88px);
+  padding-left: 10%;
+  padding-right: 10%;
+  align-items: center;
+  background-color: #ffffffb8;
+}

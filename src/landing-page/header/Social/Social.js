@@ -27,7 +27,7 @@ const socialConfig = {
 
 function Social() {
   return (
-    <div className='container'>
+    <div className='social-container'>
       <div id='social1' style={socialConfig.social1.styles}>
       </div>
       <div id='social2' style={socialConfig.social2.styles}>

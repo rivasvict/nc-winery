@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.scss';
-import Header from './landing-page/header/Header'
+import Header from './landing-page/header/Header';
+import MainContent from './landing-page/main-content/MainContent';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
+      <MainContent />
       <Header />
     </div>
   );
