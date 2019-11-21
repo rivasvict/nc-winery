@@ -2,6 +2,7 @@ import React from 'react';
 import ImageSlider from './ImageSlider';
 import Explore from './Explore';
 import ProductsShowCase from './ProductShowCase';
+import Images from './Images'
 
 const mainContentStyle = {
   position: 'absolute',
@@ -17,8 +18,8 @@ function MainContent() {
       <ImageSlider />
       <Explore />
       <ProductsShowCase />
-      {/*<Images />
-      <Footer />*/}
+      <Images />
+      {/*<Footer />*/}
     </div>
   )
 }
