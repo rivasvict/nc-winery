@@ -1,0 +1,36 @@
+.footer-logos-container {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  height: 300px;
+
+  .logos-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    .image {
+      border: dashed black 1px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 80%;
+    }
+
+    .individual-logo {
+      height: 60%;
+    }
+  }
+
+  .grid-logos-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    .logos-grid {
+      height: 50%;
+    }
+  }
+}

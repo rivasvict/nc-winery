@@ -3,6 +3,7 @@ import ImageSlider from './ImageSlider';
 import Explore from './Explore';
 import ProductsShowCase from './ProductShowCase';
 import Images from './Images'
+import Footer from './Footer';
 
 const mainContentStyle = {
   position: 'absolute',
@@ -19,7 +20,7 @@ function MainContent() {
       <Explore />
       <ProductsShowCase />
       <Images />
-      {/*<Footer />*/}
+      <Footer />
     </div>
   )
 }
