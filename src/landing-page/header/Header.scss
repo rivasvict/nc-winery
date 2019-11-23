@@ -7,4 +7,23 @@
   padding-right: 10%;
   align-items: center;
   background-color: #ffffffb8;
+  -webkit-transition: grid-template-rows 2s; /* Safari prior 6.1 */
+  transition: grid-template-rows 2s;
+
+  .top-header {
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.hidden-top-header-container {
+  grid-template-rows: repeat(1, 88px);
+  position: fixed;
+  left: 0;
+  right: 0;
+
+  .top-header {
+    display: none;
+  }
 }
