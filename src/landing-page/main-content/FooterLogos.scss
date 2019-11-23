@@ -1,8 +1,9 @@
 .footer-logos-container {
   display: flex;
   justify-content: center;
-  justify-items: center;
+  align-items: center;
   height: 300px;
+  padding: 0px 7%;
 
   .logos-container {
     flex: 1;
@@ -25,12 +26,19 @@
   }
 
   .grid-logos-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
 
-    .logos-grid {
-      height: 50%;
+    .logos-grid-wrapper {
+      grid-column: 1/4;
+      display: flex;
+      justify-content: center;
+
+      .logos-grid {
+        height: 100px;
+        width: 100px;
+        margin: 20px;
+      }
     }
   }
 }

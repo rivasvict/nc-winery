@@ -3,7 +3,42 @@ import './FooterLinks.scss'
 
 function FooterLinks() {
   return (
-    <div>FooterLinks</div>
+    <div className='footer-links-container'>
+      <div className='links-group'>
+        <a href='#'>About us</a>
+        <a href='#'>Our story</a>
+        <a href='#'>Our winemaker</a>
+        <a href='#'>Our vineyards</a>
+      </div>
+      <div className='links-group'>
+        <a href='#'>Events</a>
+        <a href='#'>Workshop</a>
+        <a href='#'>Certification</a>
+      </div>
+      <div className='links-group'>
+        <a href='#'>Wine</a>
+        <a href='#'>Red wine</a>
+        <a href='#'>White wine</a>
+        <a href='#'>Ice wine</a>
+        <a href='#'>Rose wine</a>
+        <a href='#'>Sparkling wine</a>
+        <a href='#'>Wine club</a>
+        <a href='#'>Alumni club</a>
+      </div>
+      <div className='links-group'>
+        <a href='#'>Products</a>
+        <a href='#'>Gift basket</a>
+        <a href='#'>Cheese</a>
+        <a href='#'>Chocolate</a>
+        <a href='#'>Cookies</a>
+        <a href='#'>Ice wine jam</a>
+      </div>
+      <div className='links-group'>
+        <a href='#'>Visit us</a>
+        <a href='#'>Contact</a>
+        <a href='#'>Direction</a>
+      </div>
+    </div>
   )
 }
 

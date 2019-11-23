@@ -8,11 +8,15 @@ function FooterLogos() {
         <div className='individual-logo image'></div>
       </div>
       <div className='logos-container grid-logos-container'>
-        <div className='logos-grid image'></div>
-        <div className='logos-grid image'></div>
-        <div className='logos-grid image'></div>
-        <div className='logos-grid image'></div>
-        <div className='logos-grid image'></div>
+        <div className='logos-grid-wrapper'>
+          <div className='logos-grid image'></div>
+          <div className='logos-grid image'></div>
+          <div className='logos-grid image'></div>
+        </div>
+        <div className='logos-grid-wrapper'>
+          <div className='logos-grid image'></div>
+          <div className='logos-grid image'></div>
+        </div>
       </div>
       <div className='logos-container'>
         <div className='individual-logo image'></div>
