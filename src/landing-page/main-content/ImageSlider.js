@@ -12,7 +12,6 @@ const sliderImageStyle = {
 }
 
 const callToActionContainer = {
-  backgroundColor: '#ffffffb8',
   display: 'flex',
   justifyContent: 'center',
   color: 'black',
@@ -23,7 +22,8 @@ const callToActionContainer = {
 };
 
 const callToActionCaptionStyle = {
-  marginBottom: '40px'
+  marginBottom: '40px',
+  fontSize: '2.2em',
 }
 
 const exploreWinesStyle = {
@@ -36,7 +36,10 @@ function ImageSlider() {
     <div style={sliderImageStyle}>
       <div style={callToActionContainer}>
         <div style={callToActionCaptionStyle}>
-          Niagara College Wines... Discover the mastery
+          Discover the mastery
+        </div>
+        <div style={callToActionCaptionStyle}>
+          Discover the mastery
         </div>
         <div className='call-to-action' style={exploreWinesStyle}>Explore our wines</div>
       </div>
