@@ -1,4 +1,5 @@
 import React from 'react';
+import Social from '../header/Social/Social';
 import './FooterLinks.scss'
 
 function FooterLinks() {
@@ -37,6 +38,13 @@ function FooterLinks() {
         <a href='#'>Visit us</a>
         <a href='#'>Contact</a>
         <a href='#'>Direction</a>
+      </div>
+      <div className='links-group'>
+      </div>
+      <div className='links-group'>
+      </div>
+      <div className='links-group'>
+        <Social />
       </div>
     </div>
   )

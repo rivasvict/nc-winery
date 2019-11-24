@@ -3,41 +3,52 @@
   justify-content: center;
   align-items: center;
   height: 300px;
-  padding: 0px 7%;
+  padding: 36px 7%;
+  flex-direction: column;
 
-  .logos-container {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-
-    .image {
-      border: dashed black 1px;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      width: 80%;
-    }
-
-    .individual-logo {
-      height: 60%;
-    }
+  .title {
+    font-size: 2em;
+    font-weight: bold;
   }
 
-  .grid-logos-container {
+  .logos-group {
     display: flex;
-    flex-direction: column;
+    height: 100%;
+    width: 100%;
 
-    .logos-grid-wrapper {
-      grid-column: 1/4;
+    .logos-container {
+      flex: 1;
       display: flex;
       justify-content: center;
+      align-items: center;
+      height: 100%;
 
-      .logos-grid {
-        height: 100px;
-        width: 100px;
-        margin: 20px;
+      .image {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 80%;
+      }
+
+      .individual-logo {
+        height: 60%;
+      }
+    }
+
+    .grid-logos-container {
+      display: flex;
+      flex-direction: column;
+
+      .logos-grid-wrapper {
+        grid-column: 1/4;
+        display: flex;
+        justify-content: center;
+
+        .logos-grid {
+          height: 100px;
+          width: 100px;
+          margin: 20px;
+        }
       }
     }
   }
