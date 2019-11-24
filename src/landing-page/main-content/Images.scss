@@ -28,6 +28,17 @@
         height: 100%;
         width: 100%;
         color: white;
+        flex-direction: column;
+        font-size: 1.5em;
+
+        .likes-comments {
+          display: flex;
+          align-items: center;
+
+          svg {
+            margin: 0px 10px;
+          }
+        }
       }
     }
   }
