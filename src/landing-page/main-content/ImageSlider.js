@@ -2,14 +2,16 @@ import React from 'react';
 import slider3 from '../../assets/slider/slider-3.jpg'
 import slider2 from '../../assets/slider/slider-2.jpg'
 import slider1 from '../../assets/slider/slider-1.jpg'
+import slider4 from '../../assets/slider/slider-4.jpg'
 import { Carousel } from 'react-responsive-carousel';
 import '../../../node_modules/react-responsive-carousel/lib/styles/carousel.min.css'
 import './Carousel.scss';
 
 const imagesSlider = [
-  slider3,
+  slider1,
   slider2,
-  slider1
+  slider3,
+  slider4
 ];
 
 const imageSliderContainerStyle = {
@@ -22,12 +24,15 @@ const imageSliderContainerStyle = {
 const callToActionContainer = {
   display: 'flex',
   justifyContent: 'center',
-  color: 'black',
-  padding: '40px 60px',
+  color: 'white',
+  fontWeight: 'bold',
   fontSize: '2em',
   flexDirection: 'column',
   alignItems: 'center',
-  position: 'absolute'
+  position: 'absolute',
+  backgroundColor: '#0000004d',
+  width: '100%',
+  height: '100vh'
 };
 
 const callToActionCaptionStyle = {
@@ -37,7 +42,8 @@ const callToActionCaptionStyle = {
 
 const exploreWinesStyle = {
   padding: '20px 40px',
-  maxWidth: '400px'
+  maxWidth: '400px',
+  color: 'white'
 }
 
 class ImageSlider extends React.Component {
