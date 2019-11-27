@@ -55,21 +55,6 @@ const callToActionTop = {
   paddingTop: '20vh'
 };
 
-const callToActionBottom = {
-  backgroundColor: '#3c3a3a',
-  flex: 1,
-  width: '100%',
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center',
-  flexDirection: 'column'
-};
-
-const textContent = {
-  margin: '1.5% 0px',
-  fontWeight: '200'
-}
-
 class ImageSlider extends React.Component {
   constructor(props) {
     super();
@@ -94,15 +79,6 @@ class ImageSlider extends React.Component {
               Discover the Mastery
             </div>
             <div className='call-to-action' style={exploreWinesStyle}>Explore our wines</div>
-          </div>
-          <div style={callToActionBottom}>
-            <div>
-              Join our Club
-            </div>
-            <div style={textContent}>
-              To enjoy a full experience of true wine and discover the best sensations
-            </div>
-            <div className='call-to-action' style={exploreWinesStyle}>Subscribe</div>
           </div>
         </div>
       </div>
