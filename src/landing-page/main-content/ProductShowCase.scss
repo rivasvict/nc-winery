@@ -1,14 +1,14 @@
 .product-show-case-container {
   display: grid;
   grid-template-rows: 1fr 3fr;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   padding-bottom: 50px;
 
   .products-title {
     display: flex;
     justify-content: center;
     align-items: center;
-    grid-column: 1/5;
+    grid-column: 1/4;
     font-size: 2em;
     font-weight: bold;
   }

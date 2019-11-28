@@ -1,5 +1,4 @@
 import React from 'react';
-import { whileStatement } from '@babel/types';
 
 const callToActionBottom = {
   backgroundColor: '#3c3a3a',

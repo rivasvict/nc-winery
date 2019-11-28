@@ -1,27 +1,24 @@
 import React from 'react';
 import './ProductShowCase.scss';
 
-import productImage1 from '../../assets/products/product-image-1.png';
+import productImage1 from '../../assets/products/product-image-1.jpg';
+import productImage2 from '../../assets/products/product-image-2.jpg';
+import productImage3 from '../../assets/products/product-image-3.jpg';
 
 const products = [
   {
-    name: 'Cabernet Sauvignon',
+    name: 'Red wines',
     image: productImage1,
     url: '#'
   },
   {
-    name: 'Cabernet Sauvignon',
-    image: productImage1,
+    name: 'Gift baskets',
+    image: productImage2,
     url: '#'
   },
   {
-    name: 'Cabernet Sauvignon',
-    image: productImage1,
-    url: '#'
-  },
-  {
-    name: 'Cabernet Sauvignon',
-    image: productImage1,
+    name: 'Rose wines',
+    image: productImage3,
     url: '#'
   }
 ];
