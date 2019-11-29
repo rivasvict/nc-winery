@@ -36,8 +36,10 @@ function FooterLinks() {
       </div>
       <div className='links-group'>
         <a href='#'>Visit us</a>
-        <a href='#'>Contact</a>
         <a href='#'>Direction</a>
+        <a href='#'>Contact us</a>
+        <a href='#'>(905) 641-2252 ext. 4070</a>
+        <a href='#'>chchandratre@niagaracollege.ca</a>
       </div>
       <div className='links-group'>
       </div>
