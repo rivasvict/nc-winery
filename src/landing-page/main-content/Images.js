@@ -124,6 +124,8 @@ class Images extends React.Component {
       return currentState.images.map((image, key) => {
         if (id === key) {
           image.isVisible = !image.isVisible
+        } else {
+          image.isVisible = false;
         }
 
         return image;
@@ -146,7 +148,7 @@ class Images extends React.Component {
     </a>);
 
     return (
-      <div className='images-container'>
+      <div className='images-container' onMouseEnter={() => this.handleMouseOver()} onMouseLeave={() => this.handleMouseOver()}>
         {imagesToRender}
       </div>
     );

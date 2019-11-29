@@ -15,7 +15,7 @@ const logoImageStyles = [
   { backgroundImage: `url('${logoImage4}')` },
   { backgroundImage: `url('${logoImage5}')` },
   { backgroundImage: `url('${logoImage6}')` },
-  { backgroundImage: `url('${logoImage7}')` },
+  { backgroundImage: `url('${logoImage7}')`, backgroundSize: 'contain' },
 ];
 
 function FooterLogos() {
