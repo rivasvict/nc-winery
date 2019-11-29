@@ -2,6 +2,7 @@
   flex: 1;
   display: flex;
   justify-content: right;
+  place-self: flex-end;
   white-space: nowrap;
 
   ul {

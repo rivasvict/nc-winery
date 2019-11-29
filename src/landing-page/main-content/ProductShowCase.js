@@ -35,9 +35,20 @@ function ProductShowCase() {
   return (
     <div className='product-show-case-container'>
       <div className='products-title'>
-        EXPLORE / TASTE / ENJOY / FAMILY
+        EXPLORE & TASTE OUR WINES
       </div>
       {productsToRender}
+      <div className='product-showcase-description'>
+        We are Niagara College Teaching Winery, know our wines, know our passion
+        <br/>
+        We are the hub for wine education in the Niagara region and the first commercial teaching winery in Canada.
+        <br/>
+        Come to enjoy a pleasant experience in our Vineyard with a glass of wine 
+        <br/>
+        Find the perfect gift or gift basket for your family or friends
+        <br/>
+        Discover our journey into the wine industry and live an unforgettable experience
+      </div>
     </div>
   )
 }

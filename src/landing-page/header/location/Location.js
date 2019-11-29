@@ -5,7 +5,8 @@ const locationContainerStyle = {
   flex: 1,
   display: 'flex',
   justifyContent: 'right',
-  alignItems: 'center'
+  alignItems: 'center',
+  placeSelf: 'flex-end'
 };
 
 function Location () {
