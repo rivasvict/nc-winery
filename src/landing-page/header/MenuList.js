@@ -19,7 +19,7 @@ const menu = [
     url: '#'
   },
   {
-    name: 'Tours',
+    name: 'Certifications',
     url: '#'
   },
   {
